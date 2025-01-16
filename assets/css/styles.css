@@ -1,0 +1,127 @@
+/* Estilos para la Sección Hero */
+.hero-section {
+    background-color: #343a40;
+    color: #fff;
+    padding: 40px 0; /* Padding superior e inferior ajustado */
+}
+
+.hero-section h1 {
+    font-size: 40px;
+    margin-bottom: 50px; /* Ajusta el margen inferior del título */
+}
+
+.hero-section p {
+    font-size: 20px;
+}
+
+.hero-section img.hero-img {
+    border-radius: 8px;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-top: 40px; /* Ajusta el margen superior de la imagen */
+}
+
+/* Estilos de la Sección de Habilidades */
+#habilidades {
+    padding: 60px 0;
+}
+
+#habilidades .col-md-2 {
+    margin-bottom: 20px;
+}
+
+#habilidades i {
+    font-size: 24px; /* Tamaño reducido para los íconos */
+}
+
+#habilidades h3 {
+    font-size: 16px; /* Ajusta el tamaño del texto bajo los íconos */
+}
+
+/* Estilos de la Sección de Proyectos */
+#proyectos {
+    padding: 60px 0;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Estilos para el Botón de WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 50%; /* Hace que el botón sea un círculo */
+    padding: 15px; /* Tamaño del círculo */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    font-size: 24px;
+    text-align: center;
+    z-index: 1000;
+    display: flex; /* Asegura que el contenido esté centrado */
+    align-items: center; /* Centra el ícono verticalmente */
+    justify-content: center; /* Centra el ícono horizontalmente */
+    width: 60px; /* Ancho del círculo */
+    height: 60px; /* Alto del círculo */
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Cambia el color de fondo al pasar el ratón */
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 991px) { /* Para tablets y móviles */
+    .hero-section .row {
+        flex-direction: column-reverse; /* El texto se colocará debajo de la imagen */
+    }
+
+    .hero-section img.hero-img {
+        width: 100%; /* La imagen ocupará el ancho completo */
+        margin-bottom: 20px; /* Espacio debajo de la imagen */
+    }
+}
+
+/* Estilos para el Footer */
+.footer {
+    background-color: #212529; /* Fondo oscuro */
+    color: #e9ecef; /* Texto claro */
+}
+
+.footer .container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten si es necesario */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos de manera equitativa */
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+    flex-wrap: nowrap; /* Evita que los elementos se envuelvan */
+}
+
+.footer a {
+    color: #e9ecef; /* Color de enlaces */
+    text-decoration: none; /* Quitar subrayado */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+.footer i {
+    font-size: 24px; /* Tamaño de los iconos de redes sociales */
+    margin: 0 10px; /* Espaciado entre iconos */
+}
+
+.footer p {
+    margin-bottom: 0; /* Sin espaciado inferior */
+}
+
+.footer .mx-2 {
+    margin: 5px; /* Espaciado horizontal entre los enlaces */
+}
