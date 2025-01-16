@@ -21,7 +21,7 @@ Soy un desarrollador apasionado por las tecnologías web, especializado en la co
 
 ### 3. **Contacto**
    - Puedes enviarme un mensaje a través del formulario de contacto o conectar conmigo en **LinkedIn** o **GitHub**.
-   - Correo electrónico: [juan.perez@example.com](mailto:juan.perez@example.com)
+
 
 ## Tecnologías Usadas
 
